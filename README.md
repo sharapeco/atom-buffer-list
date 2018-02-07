@@ -3,7 +3,7 @@ Buffer List
 
 Buffer list like Emacs or xyzzy, which can save/close documents.
 
-<img alt="[Screencast]" src="https://raw.githubusercontent.com/sharapeco/github-images/master/buffer-list/buffer-list.gif" width="375">
+<img alt="[Screencast]" src="https://raw.githubusercontent.com/sharapeco/github-images/master/buffer-list/buffer-list.gif" width="800">
 
 
 Features
