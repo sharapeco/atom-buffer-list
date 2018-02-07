@@ -1,0 +1,21 @@
+{
+  "name": "buffer-list",
+  "main": "./lib/buffer-list",
+  "version": "0.0.0",
+  "description": "Buffer list like Emacs or xyzzy, which can save/close documents.",
+  "keywords": [
+    "Emacs",
+    "xyzzy"
+  ],
+  "activationCommands": {
+    "atom-workspace": "buffer-list:show"
+  },
+  "repository": "https://github.com/sharapeco/atom-buffer-list",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.12.8"
+  }
+}

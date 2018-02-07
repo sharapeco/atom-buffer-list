@@ -1,0 +1,16 @@
+'.buffer-list':
+	'j': 'core:move-down'
+	'k': 'core:move-up'
+	'd': 'buffer-list:mark-as-delete'
+	's': 'buffer-list:mark-as-save'
+	'u': 'buffer-list:unmark'
+	'x': 'buffer-list:execute'
+	'o': 'buffer-list:open-selected'
+	'enter': 'buffer-list:open-selected'
+	'ctrl-v': 'core:page-down'
+
+':not(.platform-darwin) .buffer-list':
+	'alt-v': 'core:page-up'
+
+'.platform-darwin .buffer-list':
+	'cmd-v': 'core:page-up'

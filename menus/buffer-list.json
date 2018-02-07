@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Buffer List",
+          "submenu": [
+            {
+              "label": "Open",
+              "command": "atom-buffer-list:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

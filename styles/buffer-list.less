@@ -1,0 +1,98 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.buffer-list {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.buffer-list-content {
+	flex: 1 1 auto;
+	padding: .25em 0;
+	overflow: auto;
+}
+
+.buffer-list-legend {
+	flex: 0 0 auto;
+}
+
+.buffer-list-items {
+	display: table;
+	width: 100%;
+	font-size: 14px;
+}
+
+.buffer-list-item {
+	display: table-row;
+	cursor: default;
+
+	&:hover {
+		background: @background-color-highlight;
+	}
+
+	&.selected {
+		color: @text-color-highlight;
+		background: @background-color-selected;
+	}
+
+	> * {
+		display: table-cell; vertical-align: middle;
+		padding: .4em .25em;
+		line-height: 1.2;
+
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+.buffer-list-marker {
+	flex-grow: 0;
+	width: 1%;
+	white-space: nowrap;
+	padding-left: .75em;
+
+	.icon {
+		padding: 0 4px;
+		&:before { margin-right: 0; }
+	}
+
+	.hide {
+		display: inline-block !important;
+		visibility: hidden;
+	}
+}
+
+.buffer-list-name {
+	width: 25%;
+}
+
+.buffer-list-path {
+	padding: .4em/.91 .25em/.91;
+	font-size: 91%;
+	color: @text-color-subtle;
+}
+
+.buffer-list-legend {
+	display: flex;
+	flex-direction: row;
+
+	padding: .4em .4em;
+	color: @text-color;
+	background: @tool-panel-background-color;
+	border-top: solid 1px @tool-panel-border-color;
+}
+
+.buffer-list-legend-item {
+	padding: 0 .5em;
+	white-space: nowrap;
+
+	> span {
+		display: inline-block;
+	}
+}
