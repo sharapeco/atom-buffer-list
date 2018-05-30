@@ -70,6 +70,14 @@
 
 .buffer-list-name {
 	width: 25%;
+
+	.buffer-list-item.modified &:before {
+		content: "\f052";
+		display: inline-block;
+        margin-right: .33em;
+        font: normal normal 100%/1 "Octicons Regular";
+		color : @text-color-info;
+	}
 }
 
 .buffer-list-path {
