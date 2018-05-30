@@ -1,7 +1,7 @@
 {
   "name": "buffer-list",
   "main": "./lib/buffer-list",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Buffer list like Emacs or xyzzy, which can save/close documents.",
   "keywords": [
     "Emacs",
